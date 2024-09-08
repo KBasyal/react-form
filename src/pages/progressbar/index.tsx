@@ -20,7 +20,7 @@ const StepperProgressBar: React.FC<StepperProgressBarProps> = ({ steps, currentS
           <React.Fragment key={index}>
             {index === currentStep && (
               <img
-                src="../../assets/Vector.svg"
+                src="src\assets\Vector.svg"
                 alt="Progress Step"
                 className="absolute"
                 style={{

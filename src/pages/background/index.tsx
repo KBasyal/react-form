@@ -141,7 +141,7 @@ const BackgroundComponent = () => {
         <div className="bg-[#F7FFEF] w-full h-screen flex flex-col relative">
             <div className="absolute top-[14px] left-[25px] p-[7px_0px_0px_0px]">
                 <img
-                    src="../../assets/Layer 2.svg"
+                    src="src\assets\Layer 2.svg"
                     className="w-[104.28px] h-[78.1px]"
                     alt="Layer 2"
                 />
@@ -149,7 +149,7 @@ const BackgroundComponent = () => {
 
             <div className="absolute top-[120px] left-[-30px] w-[1499.63px] h-[1071px]">
                 <img
-                    src="../../assets/background.svg"
+                    src="src\assets\background.svg"
                     alt="background"
                     className="w-full h-full object-cover object-center"
                 />
