@@ -16,7 +16,7 @@ const StepperProgressBar: React.FC<StepperProgressBarProps> = ({ steps, currentS
   return (
     <div className="flex justify-center mt-8 relative">
       <div className="relative flex items-center w-[593px]">
-        {steps.map((step, index) => (
+        {steps.map((_step, index) => (
           <React.Fragment key={index}>
             {index === currentStep && (
               <img

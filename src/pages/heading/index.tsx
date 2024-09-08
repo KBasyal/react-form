@@ -1,9 +1,8 @@
 import React from 'react';
 
+const HeadingComponent: React.FC = () => {
 
-const HeadingComponent = () => {
-  
-  const headingStyle = {
+  const headingStyle: React.CSSProperties = {
     width: '204px',
     height: '56px',
     position: 'absolute',
